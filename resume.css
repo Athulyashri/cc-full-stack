@@ -1,0 +1,173 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+    width:900px;
+    margin:30px auto;
+    padding:40px;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.15);
+    line-height:1.8;
+}
+
+/* Heading */
+marquee{
+    background:linear-gradient(90deg,#0077ff,#00c6ff);
+    color:white;
+    border-radius:8px;
+    padding:10px;
+    margin-bottom:25px;
+}
+
+h1{
+    text-align:center;
+    font-size:32px;
+}
+
+h2{
+    color:#0066cc;
+    border-left:6px solid #0066cc;
+    padding-left:12px;
+    margin-top:25px;
+    margin-bottom:12px;
+}
+
+/* Profile Image */
+
+img{
+    
+    object-fit:cover;
+    border:4px solid #0077ff;
+    box-shadow:0 5px 15px rgba(0,0,0,0.25);
+}
+
+/* Name */
+
+h2:first-of-type{
+    color:#222;
+    border:none;
+    padding-left:0;
+    font-size:30px;
+    margin-top:0;
+}
+
+p{
+    font-size:16px;
+    margin-bottom:8px;
+}
+
+/* Links */
+
+a{
+    color:#0077ff;
+    text-decoration:none;
+    font-weight:600;
+}
+
+a:hover{
+    color:#ff6600;
+    text-decoration:underline;
+}
+
+/* Table */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+    margin-bottom:20px;
+}
+
+table th{
+    background:#0077ff;
+    color:white;
+    padding:12px;
+    text-align:center;
+}
+
+table td{
+    padding:12px;
+    text-align:center;
+}
+
+table tr:nth-child(even){
+    background:#eef6ff;
+}
+
+table tr:hover{
+    background:#d8ebff;
+}
+
+/* Lists */
+
+ol,ul{
+    margin-left:30px;
+    margin-top:10px;
+}
+
+ol li,ul li{
+    margin-bottom:8px;
+}
+
+/* Horizontal Line */
+
+hr{
+    border:none;
+    height:2px;
+    background:#0077ff;
+    margin:25px 0;
+}
+
+/* Signature */
+
+div{
+    margin-top:25px;
+}
+
+/* Personal Details */
+
+b{
+    color:#004a99;
+}
+
+/* Footer */
+
+footer{
+    text-align:center;
+    color:gray;
+}
+
+/* Hover Effect */
+
+body:hover{
+    box-shadow:0 15px 40px rgba(0,0,0,0.2);
+    transition:0.4s;
+}
+
+/* Print */
+
+@media print{
+
+body{
+    box-shadow:none;
+    margin:0;
+    width:100%;
+    padding:20px;
+}
+
+marquee{
+    display:none;
+}
+
+}
